@@ -1,7 +1,8 @@
 ﻿# My dotfiles
 
-## LazyVim
+## Neovim & LazyVim
 
+- <https://neovim.io/>
 - <http://www.lazyvim.org/>
 
 ### Theme Catppuccin - Frappe
