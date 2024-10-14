@@ -19,5 +19,6 @@
 ### Theme Catpuccin - Frappe
 
 - <https://github.com/catppuccin/alacritty>
+- Font: JetBrainsMono Nerd Font <https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip>
 
 ![Neovim & Alacritty](https://github.com/imasretep/dotfiles/blob/main/NeovimAlacritty.png)
