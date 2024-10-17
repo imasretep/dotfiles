@@ -10,9 +10,11 @@
 ;;       user-mail-address "john@doe.com")
 
 ;; THEMES
-(setq doom-theme 'doom-one)
-;; (setq doom-theme 'doom-moonlight)
-
+;;(setq doom-theme 'doom-one)
+;;(setq doom-theme 'doom-moonlight)
+;;(setq doom-theme 'doom-ayu-dark)
+(setq doom-theme 'doom-tokyo-night)
+;(setq doom-theme 'catppuccin)
 
 ;; OPACITY
 (doom/set-frame-opacity 95)
@@ -20,7 +22,8 @@
 ;; treemacs
 (setq treemacs-position 'right)
 
-
+;; FONT
+(setq doom-font (font-spec :family "JetBrains Mono" :size 30))
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, se this to `relative'.
@@ -63,6 +66,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+(setq exec-path (append exec-path '("C:/msys64/mingw64/bin")))
 
 ;; WEB
 (use-package! web-mode
