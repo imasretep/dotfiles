@@ -5,7 +5,9 @@
 - <https://neovim.io/>
 - <http://www.lazyvim.org/>
 
-### Theme Catppuccin - Frappe
+### Theme Monochrome
+
+- <https://github.com/kdheepak/monochrome.nvim>
 
 #### Plugins
 
@@ -17,9 +19,6 @@
 
 ## Alacritty
 
-### Theme Catpuccin - Frappe
-
-- Alacritty <https://github.com/catppuccin/alacritty>
-- Font JetBrainsMono Nerd Font <https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip>
+- Font CaskaydiaCove Nerd Font <https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CascadiaCode.zip>
 
 ![Neovim & Alacritty](https://github.com/imasretep/dotfiles/blob/main/NeovimAlacritty.png)
