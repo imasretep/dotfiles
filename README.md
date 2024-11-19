@@ -23,9 +23,3 @@
 - Font JetBrainsMono Nerd Font <https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip>
 
 ![Neovim & Alacritty](https://github.com/imasretep/dotfiles/blob/main/NeovimAlacritty.png)
-
-### Doom Emacs
-- <https://www.gnu.org/software/emacs/>
-- <https://github.com/doomemacs/doomemacs>
-
-![DoomEmacs](https://github.com/imasretep/dotfiles/blob/main/DoomEmacs.png)
