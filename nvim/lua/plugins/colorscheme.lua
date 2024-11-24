@@ -8,12 +8,13 @@ return {
   { "bettervim/yugen.nvim" },
   { "kdheepak/monochrome.nvim" },
   { "aliqyan-21/darkvoid.nvim" },
-
+  { "wnkz/monoglow.nvim" },
+  { "rose-pine/neovim" },
   -- Load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monochrome",
+      colorscheme = "monoglow-void",
     },
   },
 }
