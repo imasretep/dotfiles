@@ -10,11 +10,13 @@ return {
   { "aliqyan-21/darkvoid.nvim" },
   { "wnkz/monoglow.nvim" },
   { "rose-pine/neovim" },
+  { "sainnhe/sonokai" },
+  { "miikanissi/modus-themes.nvim", priority = 1000 },
   -- Load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monoglow-void",
+      colorscheme = "modus_vivendi",
     },
   },
 }
