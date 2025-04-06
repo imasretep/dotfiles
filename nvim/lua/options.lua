@@ -32,4 +32,4 @@ vim.g.clipboard = {
   cache_enabled = false,
 }
 
-vim.cmd('colorscheme monoglow-lack')
+vim.cmd('colorscheme elflord')

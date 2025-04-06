@@ -1,5 +1,6 @@
 return {
   { 'aliqyan-21/darkvoid.nvim' },
+  { 'nyoom-engineering/oxocarbon.nvim' },
   {
     "wnkz/monoglow.nvim",
     lazy = false,
