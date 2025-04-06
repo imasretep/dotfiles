@@ -33,4 +33,4 @@ vim.g.clipboard = {
   cache_enabled = false,
 }
 
-vim.cmd('colorscheme torte')
+vim.cmd('colorscheme fluoromachine')

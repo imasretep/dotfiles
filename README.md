@@ -13,5 +13,6 @@ Simple configuration
 - Fzf (https://github.com/junegunn/fzf.vim)
 - Nvim-lint (https://github.com/mfussenegger/nvim-lint)
 - Plenary (https://github.com/nvim-lua/plenary.nvim)
+- Render-Markdown (https://github.com/MeanderingProgrammer/render-markdown.nvim)
 - Todo (https://github.com/folke/todo-comments.nvim)
 - Treesitter (https://github.com/nvim-treesitter/nvim-treesitter)
