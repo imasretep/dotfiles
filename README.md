@@ -1,2 +1,3 @@
-# dotfiles
-My ever changing dotfiles
+# Neovim
+
+Simple and basic configuration
