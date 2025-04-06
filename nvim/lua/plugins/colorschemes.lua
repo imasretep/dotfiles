@@ -7,4 +7,6 @@ return {
     priority = 1000,
     opts = {},
   },
+  { 'aktersnurra/no-clown-fiesta.nvim' },
+  { 'eldritch-theme/eldritch.nvim' },
 }

@@ -10,12 +10,13 @@ o.clipboard = "unnamedplus"
 o.cursorline = true
 o.cursorlineopt = "both"
 o.updatetime = 250
+o.laststatus = 0
 
 opt.number = true
 opt.relativenumber = true
 opt.ignorecase = true
 opt.smartcase = true
-opt.termguicolors = true
+opt.termguicolors = false
 opt.fillchars:append { eob = " " }
 
 --- WSL2 Yank
@@ -32,4 +33,4 @@ vim.g.clipboard = {
   cache_enabled = false,
 }
 
-vim.cmd('colorscheme elflord')
+vim.cmd('colorscheme torte')
