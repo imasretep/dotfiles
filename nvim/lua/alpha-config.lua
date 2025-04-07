@@ -1,34 +1,31 @@
 local status_ok, alpha = pcall(require, "alpha")
 if not status_ok then
-  return
+	return
 end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
 
-  [[]],
-  [[]],
-  [[]],
-  [[]],
-  [[]],
-  [[          ▀████▀▄▄              ▄█ ]],
-  [[            █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█ ]],
-  [[    ▄        █          ▀▀▀▀▄  ▄▀  ]],
-  [[   ▄▀ ▀▄      ▀▄              ▀▄▀  ]],
-  [[  ▄▀    █     █▀   ▄█▀▄      ▄█    ]],
-  [[  ▀▄     ▀▄  █     ▀██▀     ██▄█   ]],
-  [[   ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █  ]],
-  [[    █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀  ]],
-  [[   █   █  █      ▄▄           ▄▀   ]],
-
+	[[]],
+	[[]],
+	[[]],
+	[[]],
+	[[]],
+	[[          ▀████▀▄▄              ▄█ ]],
+	[[            █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█ ]],
+	[[    ▄        █          ▀▀▀▀▄  ▄▀  ]],
+	[[   ▄▀ ▀▄      ▀▄              ▀▄▀  ]],
+	[[  ▄▀    █     █▀   ▄█▀▄      ▄█    ]],
+	[[  ▀▄     ▀▄  █     ▀██▀     ██▄█   ]],
+	[[   ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █  ]],
+	[[    █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀  ]],
+	[[   █   █  █      ▄▄           ▄▀   ]],
 }
 
-
-dashboard.section.buttons.val = {
-}
+dashboard.section.buttons.val = {}
 
 local function footer()
-  return "Neovim :: Imasretep"
+	return "Neovim :: Imasretep"
 end
 
 dashboard.section.footer.val = footer()

@@ -3,7 +3,7 @@ return {
   config = function()
     require("conform").setup({
       format_on_save = {
-        timeout_ms = 500,
+        timeout_ms = 2500,
         lsp_format = "fallback",
       },
       formatters_by_ft = {
@@ -15,6 +15,7 @@ return {
         json = { "prettierd", "prettier" },
         graphql = { "prettierd", "prettier" },
         markdown = { "prettierd", "prettier" },
+        c = { "clang_format" }
       },
       formatters = {
         prettierd = { prepend_args = {}, stop_after_first = true },
