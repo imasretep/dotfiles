@@ -11,7 +11,6 @@ o.cursorline = true
 
 o.cursorlineopt = "both"
 o.updatetime = 250
-o.laststatus = 0
 
 opt.number = true
 opt.relativenumber = true
