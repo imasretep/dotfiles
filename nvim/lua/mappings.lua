@@ -16,3 +16,4 @@ vim.keymap.set("n", "<leader>bk", ":bd<CR>", { noremap = true, silent = true, de
 -- Code actions
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>dl", vim.diagnostic.setqflist, { noremap = true, silent = true })
+vim.keymap.set("n", "gf", vim.lsp.buf.definition)
