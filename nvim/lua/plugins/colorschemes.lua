@@ -8,7 +8,14 @@ return {
     opts = {},
   },
   { 'aktersnurra/no-clown-fiesta.nvim' },
-  { 'eldritch-theme/eldritch.nvim' },
+  {
+    'eldritch-theme/eldritch.nvim',
+    lazy = false,
+    priority = 1000,
+    opts = {
+      transparent = true
+    }
+  },
   {
     'maxmx03/fluoromachine.nvim',
     lazy = false,
