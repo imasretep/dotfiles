@@ -16,3 +16,4 @@ Simple configuration
 - Render-Markdown (https://github.com/MeanderingProgrammer/render-markdown.nvim)
 - Todo (https://github.com/folke/todo-comments.nvim)
 - Treesitter (https://github.com/nvim-treesitter/nvim-treesitter)
+- Kulala (https://github.com/mistweaverco/kulala.nvim)
