@@ -18,5 +18,7 @@
   "window.menuBarVisibility": "toggle",
   "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "SynthWave '84",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
