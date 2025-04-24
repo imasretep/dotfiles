@@ -19,7 +19,8 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.fillchars:append({ eob = " " })
 
-vim.cmd("colorscheme fluoromachine")
+--vim.cmd("colorscheme fluoromachine")
+vim.cmd("colorscheme modus_vivendi")
 
 -- Show only underline
 vim.cmd([[

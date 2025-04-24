@@ -5,7 +5,9 @@ return {
     "wnkz/monoglow.nvim",
     lazy = false,
     priority = 1000,
-    opts = {},
+    opts = {
+      transparent = true
+    },
   },
   { 'aktersnurra/no-clown-fiesta.nvim' },
   {
@@ -30,4 +32,11 @@ return {
       }
     end
   },
+  {
+    "miikanissi/modus-themes.nvim",
+    priority = 1000,
+    opts = {
+      transparent = true,
+    }
+  }
 }
