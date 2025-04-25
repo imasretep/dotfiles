@@ -20,7 +20,7 @@ opt.termguicolors = true
 opt.fillchars:append({ eob = " " })
 
 --vim.cmd("colorscheme fluoromachine")
-vim.cmd("colorscheme oxocarbon")
+vim.cmd("colorscheme onedark")
 
 -- Show only underline
 vim.cmd([[
